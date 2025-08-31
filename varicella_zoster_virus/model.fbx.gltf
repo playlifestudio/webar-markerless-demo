@@ -1,0 +1,304 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.6",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_lights_punctual"
+    ],
+    "buffers": [
+        {
+            "byteLength": 1215860,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 154674,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 397944,
+            "byteOffset": 154676,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 397944,
+            "byteOffset": 552620,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 265296,
+            "byteOffset": 950564,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 77337,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 33162,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.142858907580376,
+                -0.129133552312851,
+                -0.0730467811226845
+            ],
+            "max": [
+                0.141969785094261,
+                0.140575274825096,
+                0.135729178786278
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 33162,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 33162,
+            "bufferView": 3,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "diffuse.png",
+            "uri": "diffuse.png"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "base_color_texture",
+            "sampler": 0,
+            "source": 0
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material.008",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.870388329029083
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Circle.009",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "Circle.009",
+            "translation": [
+                -0.00802979804575443,
+                0.00481650978326797,
+                -0.066303163766861
+            ],
+            "rotation": [
+                -0.00148836360312998,
+                0.996958196163177,
+                -0.0753993317484856,
+                -0.0196755342185497
+            ],
+            "scale": [
+                8.71221446990967,
+                8.71221446990967,
+                8.71221446990967
+            ],
+            "mesh": 0
+        },
+        {
+            "name": "Point",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -3.77489506320217e-08,
+                -0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        },
+        {
+            "name": "Point.001",
+            "translation": [
+                1.5957944393158,
+                -0.959937334060669,
+                -0.651082158088684
+            ],
+            "rotation": [
+                -3.77489506320217e-08,
+                -0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 1
+                }
+            }
+        },
+        {
+            "name": "Point.002",
+            "translation": [
+                -1.59348106384277,
+                1.70063471794128,
+                -0.651081740856171
+            ],
+            "rotation": [
+                -3.77489506320217e-08,
+                -0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 2
+                }
+            }
+        }
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        0.948955893516541,
+                        0.484733164310455
+                    ],
+                    "intensity": 0.410000026226044,
+                    "type": "point"
+                },
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.5,
+                    "type": "point"
+                },
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.449999988079071,
+                    "type": "point"
+                }
+            ]
+        }
+    }
+}
