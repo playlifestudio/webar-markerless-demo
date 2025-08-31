@@ -1,0 +1,265 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.6",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "buffers": [
+        {
+            "byteLength": 2138784,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 241140,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 438924,
+            "byteOffset": 241140,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 438924,
+            "byteOffset": 680064,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 292616,
+            "byteOffset": 1118988,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 123468,
+            "byteOffset": 1411604,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 226392,
+            "byteOffset": 1535072,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 226392,
+            "byteOffset": 1761464,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 150928,
+            "byteOffset": 1987856,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 120570,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 36577,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -4.15344476699829,
+                -4.18329668045044,
+                -4.18457651138306
+            ],
+            "max": [
+                4.2095422744751,
+                4.17348527908325,
+                4.18008756637573
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 36577,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 36577,
+            "bufferView": 3,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5123,
+            "type": "SCALAR",
+            "count": 61734,
+            "bufferView": 4,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 18866,
+            "bufferView": 5,
+            "byteOffset": 0,
+            "min": [
+                -4.15623760223389,
+                -4.18898153305054,
+                -4.18101215362549
+            ],
+            "max": [
+                4.2030234336853,
+                4.17307996749878,
+                4.17916870117188
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 18866,
+            "bufferView": 6,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 18866,
+            "bufferView": 7,
+            "byteOffset": 0
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "materials": [
+        {
+            "name": "Material.002",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.052543044090271,
+                    0.0966513007879257,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.272165536880493
+            }
+        },
+        {
+            "name": "Material.001",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    0.827268779277802,
+                    0.0732240080833435,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.272165536880493
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Dengue-virus",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                },
+                {
+                    "material": 1,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 6,
+                        "POSITION": 5,
+                        "TEXCOORD_0": 7
+                    },
+                    "indices": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Dengue-virus",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -0.707106828689575,
+                0.0,
+                0.0,
+                0.707106709480286
+            ],
+            "scale": [
+                6.18080997467041,
+                6.18080997467041,
+                6.18080997467041
+            ],
+            "mesh": 0
+        }
+    ]
+}
