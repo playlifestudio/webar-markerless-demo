@@ -1,0 +1,352 @@
+{
+    "asset": {
+        "generator": "FBX2glTF v0.9.6",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_lights_punctual"
+    ],
+    "buffers": [
+        {
+            "byteLength": 6049516,
+            "uri": "buffer.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 1441836,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1727880,
+            "byteOffset": 1441836,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1727880,
+            "byteOffset": 3169716,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 1151920,
+            "byteOffset": 4897596,
+            "target": 34962
+        }
+    ],
+    "scenes": [
+        {
+            "name": "Root Scene",
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "componentType": 5125,
+            "type": "SCALAR",
+            "count": 360459,
+            "bufferView": 0,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 143990,
+            "bufferView": 1,
+            "byteOffset": 0,
+            "min": [
+                -0.0137857478111982,
+                -0.00359286391176283,
+                -0.012873662635684
+            ],
+            "max": [
+                0.0121223069727421,
+                0.010840417817235,
+                0.0130477035418153
+            ]
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC3",
+            "count": 143990,
+            "bufferView": 2,
+            "byteOffset": 0
+        },
+        {
+            "componentType": 5126,
+            "type": "VEC2",
+            "count": 143990,
+            "bufferView": 3,
+            "byteOffset": 0
+        }
+    ],
+    "images": [
+        {
+            "name": "normal.jpg",
+            "uri": "normal.jpg"
+        },
+        {
+            "name": "diffuse.jpg",
+            "uri": "diffuse.jpg"
+        }
+    ],
+    "samplers": [
+        {}
+    ],
+    "textures": [
+        {
+            "name": "normalmap_texture",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "base_color_texture",
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "materials": [
+        {
+            "name": "Material.014",
+            "alphaMode": "OPAQUE",
+            "extras": {
+                "fromFBX": {
+                    "shadingModel": "Phong",
+                    "isTruePBR": false
+                }
+            },
+            "normalTexture": {
+                "index": 0,
+                "texCoord": 0
+            },
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 1,
+                    "texCoord": 0
+                },
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "metallicFactor": 0.400000005960464,
+                "roughnessFactor": 0.942809045314789
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "TOGE SUKUNAI.001",
+            "primitives": [
+                {
+                    "material": 0,
+                    "mode": 4,
+                    "attributes": {
+                        "NORMAL": 2,
+                        "POSITION": 1,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "children": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "Light",
+            "translation": [
+                -3.77725648880005,
+                2.40450954437256,
+                -2.385826587677
+            ],
+            "rotation": [
+                0.16907574236393,
+                0.755880355834961,
+                -0.272171378135681,
+                0.570947468280792
+            ],
+            "scale": [
+                33.6147499084473,
+                33.61474609375,
+                33.6147537231445
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 0
+                }
+            }
+        },
+        {
+            "name": "Light.001",
+            "translation": [
+                0.627958178520203,
+                0.252640813589096,
+                1.29491889476776
+            ],
+            "rotation": [
+                0.16907574236393,
+                0.755880355834961,
+                -0.272171378135681,
+                0.570947468280792
+            ],
+            "scale": [
+                33.6147499084473,
+                33.61474609375,
+                33.6147537231445
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 1
+                }
+            }
+        },
+        {
+            "name": "Light.002",
+            "translation": [
+                -1.61684036254883,
+                0.199105203151703,
+                3.08319091796875
+            ],
+            "rotation": [
+                0.16907574236393,
+                0.755880355834961,
+                -0.272171378135681,
+                0.570947468280792
+            ],
+            "scale": [
+                33.6147499084473,
+                33.61474609375,
+                33.6147537231445
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 2
+                }
+            }
+        },
+        {
+            "name": "Light.004",
+            "translation": [
+                1.92328977584839,
+                -1.96963202953339,
+                -4.33963966369629
+            ],
+            "rotation": [
+                0.16907574236393,
+                0.755880355834961,
+                -0.272171378135681,
+                0.570947468280792
+            ],
+            "scale": [
+                33.6147499084473,
+                33.61474609375,
+                33.6147537231445
+            ],
+            "extensions": {
+                "KHR_lights_punctual": {
+                    "light": 3
+                }
+            }
+        },
+        {
+            "name": "TOGE SUKUNAI.001",
+            "translation": [
+                -0.103862315416336,
+                -0.00655371230095625,
+                -0.164450600743294
+            ],
+            "rotation": [
+                -0.707106828689575,
+                0.0,
+                0.0,
+                0.707106709480286
+            ],
+            "scale": [
+                274.084838867188,
+                274.084838867188,
+                274.084838867188
+            ],
+            "mesh": 0
+        }
+    ],
+    "extensions": {
+        "KHR_lights_punctual": {
+            "lights": [
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        0.828689217567444,
+                        0.955398678779602
+                    ],
+                    "intensity": 0.5,
+                    "type": "point"
+                },
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.400000005960464,
+                    "type": "point"
+                },
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.400000005960464,
+                    "type": "point"
+                },
+                {
+                    "name": "",
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "intensity": 0.5,
+                    "type": "point"
+                }
+            ]
+        }
+    }
+}
